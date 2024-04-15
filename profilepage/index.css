@@ -1,0 +1,279 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans',sans-serif;
+}
+body{
+    scroll-behavior: smooth;
+}
+#top{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(imv/img.jpg) ;
+background-size: cover;
+background-position: center;
+
+
+
+}
+.lol{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.logo{
+    color: white;
+    font-size: 30px;
+}
+span{
+    color: red;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: #ea1538;
+    transition: .3sec;
+}
+.h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+   
+}
+.h{
+    color: white;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 100px; */
+    width: 100%;
+}
+#about{
+    background: url(https://img.freepik.com/free-vector/dark-black-background-design-with-stripes_1017-38064.jpg?t=st=1710624577~exp=1710628177~hmac=b1dd935ee031351803756744044560dcb3f9d0d381e79b4d519ca0f1ad2d04b7&w=826) no-repeat;
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    }
+.photo img{
+    width: 650px;
+    height: 475px;
+    margin: 70px 50px 50px 50px;
+    /* margin-top: 70px; */
+    box-shadow: black 2px 2px 2px 2px;
+
+}
+.info{
+    display: block;
+    /* margin-top: 70px; */
+
+    width: 650px;
+    height: 475px;
+    margin: 70px 50px 50px 50px;
+    background-color:rgb(0, 0, 0) ;
+    box-shadow: black 2px 2px 2px 2px ;
+    opacity: 0.9;
+
+}
+.p{
+    margin: 20px 20px 20px 20px;
+    color: white;
+    font-size: 20px;
+
+}
+.l{
+    color: #ea1538;
+    margin: 20px 20px 20px 20px;
+    font-size: 50px;
+
+}
+.u{
+    display: block;
+}
+#resume{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* margin: 50px 50px 50px 50px; */
+    background: url(https://img.freepik.com/free-vector/dark-black-background-design-with-stripes_1017-38064.jpg?t=st=1710624577~exp=1710628177~hmac=b1dd935ee031351803756744044560dcb3f9d0d381e79b4d519ca0f1ad2d04b7&w=826) no-repeat;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: black 2px 2px 2px 2px ;
+
+    
+}
+.u{
+    margin-top: 10px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    
+    
+}
+.r {
+    width: 1200px;
+    /* margin: 50px 50px 50px 50px ; */
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    opacity: 1.9;
+    margin-bottom: 20px;
+
+}
+.q{
+    color: white;
+    font-size: 30px;
+}
+
+.r img{
+    width: 600px;
+    height: 470px;
+    margin-top: 20px;
+    box-shadow: black 2px 2px 2px 2px ;
+
+}
+.r ul{
+    margin-top: 20px;
+}
+
+
+.contact-left{
+    flex-basis: 35%;
+    color: #fff;
+}
+
+
+.contact-right{
+    flex-basis: 60%;
+}
+
+.contact-left p{
+    margin-top: 30px;
+}
+
+.contact-left p i{
+    color: #ff004f;
+    margin-right:15px;
+    font-size: 25px;
+}
+
+.social-icons{
+    margin-top: 30px;
+}
+
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.social-icons a:hover{
+    color: #ff004f;
+    transform: translateY(-5px);
+}
+
+.btn.btn2{
+    display: inline-block;
+    background: #ff004f;
+}
+
+.contact-right form{
+    width: 100%;
+}
+
+form input, form textarea{
+    width: 100%;
+    border:0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#contact{
+    background: url(https://img.freepik.com/free-vector/dark-black-background-design-with-stripes_1017-38064.jpg?t=st=1710624577~exp=1710628177~hmac=b1dd935ee031351803756744044560dcb3f9d0d381e79b4d519ca0f1ad2d04b7&w=826) no-repeat;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    flex-direction: row;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.contact-right{
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+.sub-title{
+    text-align: center;
+    display: block;
+}
+
+/* Define parallax effect for specific sections */
+#top,
+#about,
+#resume,
+#contact {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Adjust the parallax effect for each section */
+#top {
+    background-image: url(imv/img.jpg);
+}
+
+#about {
+    background-image: url(https://img.freepik.com/free-vector/dark-black-background-design-with-stripes_1017-38064.jpg?t=st=1710624577~exp=1710628177~hmac=b1dd935ee031351803756744044560dcb3f9d0d381e79b4d519ca0f1ad2d04b7&w=826);
+}
+
+#resume {
+    background-image: url(https://img.freepik.com/free-vector/dark-black-background-design-with-stripes_1017-38064.jpg?t=st=1710624577~exp=1710628177~hmac=b1dd935ee031351803756744044560dcb3f9d0d381e79b4d519ca0f1ad2d04b7&w=826);
+}
+
+#contact {
+    background-image: url(https://img.freepik.com/free-vector/dark-black-background-design-with-stripes_1017-38064.jpg?t=st=1710624577~exp=1710628177~hmac=b1dd935ee031351803756744044560dcb3f9d0d381e79b4d519ca0f1ad2d04b7&w=826);
+}
+
